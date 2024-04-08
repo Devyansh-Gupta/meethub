@@ -10,7 +10,6 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
-
 import os
 import environ
 import cloudinary
@@ -72,8 +71,6 @@ INSTALLED_APPS = [
     'actions',
     'apiv1',
     'comments',
-
-
 ]
 
 MIDDLEWARE = [
